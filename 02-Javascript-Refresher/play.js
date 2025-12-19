@@ -1,6 +1,8 @@
-var name = "Godung";
-var age = 27;
-var isMan = true;
+const name = "Godung";
+let age = 27;
+const isMan = true;
+
+age = 30;
 
 function user(name, age, isMan) {
   return (`User name ${name}, age ${age}, is a man: ${isMan}`);
