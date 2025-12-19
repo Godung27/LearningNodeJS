@@ -7,3 +7,8 @@ const person = {
 };
 
 console.log(person.greet());
+
+const hobbies = ["Game", "Climbing"];
+
+console.log(hobbies.map(hobby => "My Hobby: " + hobby));
+console.log(hobbies);
